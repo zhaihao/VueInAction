@@ -7,13 +7,20 @@
 
 <template>
   <div>
-    <div v-cloak>渲染完成后才显示</div>
+    <p v-once>{{msg}}</p>
+    <p>{{msg}}</p>
+    <input type="text" v-model="msg"/>
   </div>
 </template>
 
 <script>
   export default {
-    name: "VCloak"
+    name: "VOnce",
+    data() {
+      return {
+        msg: "hello"
+      }
+    }
   }
 </script>
 

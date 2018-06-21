@@ -18,6 +18,7 @@
       <router-link to="/project/basic/v_bind">v-bind</router-link>
       <router-link to="/project/basic/v_pre">v-pre</router-link>
       <router-link to="/project/basic/v_cloak">v_cloak</router-link>
+      <router-link to="/project/basic/v_once">v_once</router-link>
     </div>
 
     <div class="content">
@@ -44,7 +45,7 @@
     max-width: 800px;
   }
 
-  .nav3{
+  .nav3 {
     word-spacing: 14px;
   }
 </style>

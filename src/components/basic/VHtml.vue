@@ -13,14 +13,14 @@
 </template>
 
 <script>
-    export default {
-        name: "VHtml",
-      data(){
-          return{
-            todo:'<h2>hello</h2>'
-          }
+  export default {
+    name: "VHtml",
+    data() {
+      return {
+        todo: '<h2>hello</h2>'
       }
     }
+  }
 </script>
 
 <style scoped>

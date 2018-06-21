@@ -58,7 +58,7 @@
         msg2: "msg2",
         agree: true,
         fav: [],
-        sex:'男'
+        sex: '男'
       }
     }
   }
