@@ -19,6 +19,7 @@ import VOn from '@/components/basic/VOn'
 import VModel from '@/components/basic/VModel'
 import VBind from '@/components/basic/VBind'
 import VPre from '@/components/basic/VPre'
+import VCloak from '@/components/basic/VCloak'
 
 Vue.use(Router);
 
@@ -37,7 +38,8 @@ export default new Router({
             {path: '/project/basic/v_on', component: VOn},
             {path: '/project/basic/v_model', component: VModel},
             {path: '/project/basic/v_bind', component: VBind},
-            {path: '/project/basic/v_pre', component: VPre}
+            {path: '/project/basic/v_pre', component: VPre},
+            {path: '/project/basic/v_cloak', component: VCloak}
           ]
         }
       ]
