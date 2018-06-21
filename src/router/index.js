@@ -14,6 +14,7 @@ import VIf from '@/components/basic/VIf'
 import VShow from '@/components/basic/VShow'
 import VFor from '@/components/basic/VFor'
 import VText from '@/components/basic/VText'
+import VHtml from '@/components/basic/VHtml'
 
 Vue.use(Router);
 
@@ -27,7 +28,8 @@ export default new Router({
             {path: '/project/basic/v_if', component: VIf},
             {path: '/project/basic/v_show', component: VShow},
             {path: '/project/basic/v_for', component: VFor},
-            {path: '/project/basic/v_text', component: VText}
+            {path: '/project/basic/v_text', component: VText},
+            {path: '/project/basic/v_html', component: VHtml}
           ]
         }
       ]
