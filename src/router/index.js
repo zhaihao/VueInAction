@@ -15,6 +15,8 @@ import VShow from '@/components/basic/VShow'
 import VFor from '@/components/basic/VFor'
 import VText from '@/components/basic/VText'
 import VHtml from '@/components/basic/VHtml'
+import VOn from '@/components/basic/VOn'
+import VModel from '@/components/basic/VModel'
 
 Vue.use(Router);
 
@@ -29,7 +31,9 @@ export default new Router({
             {path: '/project/basic/v_show', component: VShow},
             {path: '/project/basic/v_for', component: VFor},
             {path: '/project/basic/v_text', component: VText},
-            {path: '/project/basic/v_html', component: VHtml}
+            {path: '/project/basic/v_html', component: VHtml},
+            {path: '/project/basic/v_on', component: VOn},
+            {path: '/project/basic/v_model', component: VModel}
           ]
         }
       ]

@@ -13,6 +13,8 @@
       <router-link to="/project/basic/v_for">v-for</router-link>
       <router-link to="/project/basic/v_text">v-text</router-link>
       <router-link to="/project/basic/v_html">v-html</router-link>
+      <router-link to="/project/basic/v_on">v-on</router-link>
+      <router-link to="/project/basic/v_model">v-model</router-link>
     </div>
 
     <div class="content">
