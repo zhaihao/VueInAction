@@ -9,7 +9,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Project from '@/components/Project'
-import Toc from '@/components/basic/Toc'
+import Toc1 from '@/components/basic/Toc1'
 import VIf from '@/components/basic/VIf'
 import VShow from '@/components/basic/VShow'
 import VFor from '@/components/basic/VFor'
@@ -22,6 +22,9 @@ import VPre from '@/components/basic/VPre'
 import VCloak from '@/components/basic/VCloak'
 import VOnce from '@/components/basic/VOnce'
 
+import Toc2 from '@/components/component/Toc2'
+import VDirective from '@/components/component/VDirective'
+
 Vue.use(Router);
 
 export default new Router({
@@ -30,7 +33,7 @@ export default new Router({
     {
       path: '/project', component: Project, children: [
         {
-          path: '/project/basic', component: Toc, children: [
+          path: '/project/basic', component: Toc1, children: [
             {path: '/project/basic/v_if', component: VIf},
             {path: '/project/basic/v_show', component: VShow},
             {path: '/project/basic/v_for', component: VFor},
@@ -43,10 +46,13 @@ export default new Router({
             {path: '/project/basic/v_cloak', component: VCloak},
             {path: '/project/basic/v_once', component: VOnce}
           ]
+        },
+        {
+          path: '/project/component', component: Toc2, children: [
+            {path: '/project/component/v_directive', component: VDirective}
+          ]
         }
       ]
-    },
-
-
+    }
   ]
 })

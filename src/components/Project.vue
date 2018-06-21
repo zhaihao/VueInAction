@@ -8,8 +8,8 @@
 <template>
   <div>
     <div class="nav2">
-      <router-link to="/project/basic">基础</router-link>
-      <router-link to="/project/basic">组件</router-link>
+      <router-link to="/project/basic">基本指令</router-link>
+      <router-link to="/project/component">组件</router-link>
     </div>
     <br>
     <router-view></router-view>
@@ -23,7 +23,7 @@
 </script>
 
 <style scoped>
-.nav2{
-  word-spacing: 14px;
-}
+  .nav2 {
+    word-spacing: 14px;
+  }
 </style>

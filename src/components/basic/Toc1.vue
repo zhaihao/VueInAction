@@ -29,7 +29,7 @@
 
 <script>
   export default {
-    name: "Toc"
+    name: "Toc1"
   }
 </script>
 
