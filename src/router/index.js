@@ -17,6 +17,7 @@ import VText from '@/components/basic/VText'
 import VHtml from '@/components/basic/VHtml'
 import VOn from '@/components/basic/VOn'
 import VModel from '@/components/basic/VModel'
+import VBind from '@/components/basic/VBind'
 
 Vue.use(Router);
 
@@ -33,7 +34,8 @@ export default new Router({
             {path: '/project/basic/v_text', component: VText},
             {path: '/project/basic/v_html', component: VHtml},
             {path: '/project/basic/v_on', component: VOn},
-            {path: '/project/basic/v_model', component: VModel}
+            {path: '/project/basic/v_model', component: VModel},
+            {path: '/project/basic/v_bind', component: VBind}
           ]
         }
       ]
