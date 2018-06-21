@@ -16,6 +16,7 @@
       <router-link to="/project/basic/v_on">v-on</router-link>
       <router-link to="/project/basic/v_model">v-model</router-link>
       <router-link to="/project/basic/v_bind">v-bind</router-link>
+      <router-link to="/project/basic/v_pre">v-pre</router-link>
     </div>
 
     <div class="content">
