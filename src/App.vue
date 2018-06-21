@@ -8,7 +8,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png" width="100px">
-    <div>
+    <div class="nav1">
       <router-link to="/">hello</router-link>
       <router-link to="/project">project</router-link>
     </div>
@@ -31,5 +31,8 @@
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
+  }
+  .nav1{
+    word-spacing: 14px;
   }
 </style>

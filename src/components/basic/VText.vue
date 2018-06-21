@@ -7,23 +7,25 @@
 
 <template>
   <div>
-    <div class="nav2">
-      <router-link to="/project/basic">基础</router-link>
-      <router-link to="/project/basic">组件</router-link>
-    </div>
+    <p>{{}} 这种方式在异常情况下，会把表达式显示出来，v-text 可以解决这个问题</p>
     <br>
-    <router-view></router-view>
+
+    {{a}} = <span v-text="a"></span>
+
   </div>
 </template>
 
 <script>
   export default {
-    name: "Project"
+    name: "VText",
+    data() {
+      return {
+        a: 1
+      }
+    }
   }
 </script>
 
 <style scoped>
-.nav2{
-  word-spacing: 14px;
-}
+
 </style>

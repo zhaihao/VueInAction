@@ -7,10 +7,12 @@
 
 <template>
   <div class="toc">
-    <div>
+    <div class="nav3">
       <router-link to="/project/basic/v_if">v-if</router-link>
       <router-link to="/project/basic/v_show">v-show</router-link>
       <router-link to="/project/basic/v_for">v-for</router-link>
+      <router-link to="/project/basic/v_text">v-text</router-link>
+      <router-link to="/project/basic/v_html">v-html</router-link>
     </div>
 
     <div class="content">
@@ -35,5 +37,9 @@
     border: darkgray 1px solid;
     min-height: 400px;
     max-width: 800px;
+  }
+
+  .nav3{
+    word-spacing: 14px;
   }
 </style>
