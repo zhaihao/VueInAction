@@ -9,8 +9,8 @@
   <div id="app">
     <img src="./assets/logo.png" width="100px">
     <div class="nav1">
-      <router-link to="/">hello</router-link>
-      <router-link to="/project">project</router-link>
+      <router-link to="/">HELLO</router-link>
+      <router-link to="/project">PROJECT</router-link>
     </div>
     <br>
     <router-view></router-view>
@@ -34,5 +34,9 @@
   }
   .nav1{
     word-spacing: 14px;
+  }
+  a {
+    color: #42b983;
+    text-decoration-line: none;
   }
 </style>
