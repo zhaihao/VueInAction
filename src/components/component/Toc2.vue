@@ -8,7 +8,8 @@
 <template>
   <div class="toc">
     <div class="nav3">
-      <router-link to="/project/component/v_directive">v_directive</router-link>
+      <router-link to="/project/component/v_directive">v-directive</router-link>
+      <router-link to="/project/component/v_lifecycle">v-lifecycle</router-link>
     </div>
 
     <div class="content">

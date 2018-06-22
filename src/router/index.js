@@ -24,6 +24,7 @@ import VOnce from '@/components/basic/VOnce'
 
 import Toc2 from '@/components/component/Toc2'
 import VDirective from '@/components/component/VDirective'
+import VLifecycle from '@/components/component/VLifecycle'
 
 Vue.use(Router);
 
@@ -49,7 +50,8 @@ export default new Router({
         },
         {
           path: '/project/component', component: Toc2, children: [
-            {path: '/project/component/v_directive', component: VDirective}
+            {path: '/project/component/v_directive', component: VDirective},
+            {path: '/project/component/v_lifecycle', component: VLifecycle}
           ]
         }
       ]
